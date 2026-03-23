@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AAPLE VARANGAON - Home</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: white;
+      text-align: center;
+    }
+    header {
+      padding: 50px 20px;
+    }
+    h1 {
+      font-size: 3rem;
+      letter-spacing: 2px;
+    }
+    p {
+      font-size: 1.2rem;
+      opacity: 0.8;
+    }
+    .btn {
+      margin: 20px;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 30px;
+      background: #ff512f;
+      background: linear-gradient(to right, #ff512f, #dd2476);
+      color: white;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 20px rgba(255,255,255,0.5);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🚀 VARANGAON</h1>
+    <p>Learn How Navigation Works Between Pages</p>
+
+    <!-- Navigation Buttons -->
+    <button class="btn" onclick="goToPage('startup.html')">Explore Startup</button>
+    <button class="btn" onclick="goToPage('team.html')">Meet Team</button>
+  </header>
+
+  <script>
+    function goToPage(page) {
+      window.location.href = page;
+    }
+  </script>
+</body>
+</html>

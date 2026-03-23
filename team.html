@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Team Page</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Verdana;
+      background: linear-gradient(120deg, #ff6a00, #ee0979);
+      color: white;
+      text-align: center;
+    }
+    .team {
+      padding: 50px;
+    }
+    .member {
+      margin: 20px;
+      padding: 20px;
+      border-radius: 20px;
+      background: rgba(255,255,255,0.1);
+      display: inline-block;
+      width: 200px;
+    }
+    .btn {
+      margin-top: 30px;
+      padding: 10px 20px;
+      background: black;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="team">
+    <h1>👨‍💻 Meet Our Team</h1>
+
+    <div class="member">
+      <h3>Sohail</h3>
+      <p>Innovator & Leader</p>
+    </div>
+
+    <div class="member">
+      <h3>Developer 2</h3>
+      <p>Backend Expert</p>
+    </div>
+
+    <div class="member">
+      <h3>Developer 3</h3>
+      <p>UI/UX Designer</p>
+    </div>
+
+    <br>
+    <button class="btn" onclick="goHome()">⬅ Back to Home</button>
+  </div>
+
+  <script>
+    function goHome() {
+      window.location.href = 'index.html';
+    }
+  </script>
+</body>
+</html>

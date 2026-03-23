@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Startup Page</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial;
+      background: #111;
+      color: white;
+      text-align: center;
+    }
+    .container {
+      padding: 60px;
+    }
+    h1 {
+      color: #00ffcc;
+    }
+    .back {
+      margin-top: 40px;
+      padding: 10px 20px;
+      background: #00ffcc;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>💡 Our Startup Vision</h1>
+    <p>
+      We are building a powerful digital ecosystem for Varangaon that connects people,
+      businesses, services, education, and innovation in one place.
+    </p>
+
+    <p>
+      This page demonstrates how a separate HTML file can be opened using simple redirect logic.
+    </p>
+
+    <button class="back" onclick="goHome()">⬅ Back to Home</button>
+  </div>
+
+  <script>
+    function goHome() {
+      window.location.href = 'index.html';
+    }
+  </script>
+</body>
+</html>
